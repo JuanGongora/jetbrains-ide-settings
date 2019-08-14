@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="856b95da-2d98-4450-b8d4-0ea565b4b42f" name="testing-nov" url="https://d7versioncont.lndo.site/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
