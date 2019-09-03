@@ -1,5 +1,1 @@
-<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
-  <action id="EditorDecreaseFontSize">
-    <keyboard-shortcut first-keystroke="d" second-keystroke="minus" />
-  </action>
-</keymap>
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+" />
