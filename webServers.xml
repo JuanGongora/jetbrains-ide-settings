@@ -1,6 +1,22 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="384a59ec-ff61-4ec5-9d29-e2c5efbecbb2" name="ssw-dev" url="http://appserver.dev.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
+        <fileTransfer host="appserver.dev.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/896886d4943743e6b0b9ac432463bae4/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="88ba05cd-fe90-49ef-8bc1-c8246af23aca" name="ssw-instagram" url="http://appserver.instagram.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
+        <fileTransfer host="appserver.instagram.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/62857a85e8e8458a8e6e4759f3027223/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="a8fb6fce-c0ff-4e53-808c-869b93111cf4" name="smith-social" url="http://appserver.social.d3e081e3-006c-421d-973e-60275067805e.drush.in">
         <fileTransfer host="appserver.social.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/933d031bcc314723a1771a99c965290c/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
