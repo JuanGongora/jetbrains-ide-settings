@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="e708cf00-3487-4808-a8ec-4f8644be94a0" name="smith-example" url="http://appserver.example.d3e081e3-006c-421d-973e-60275067805e.drush.in">
+        <fileTransfer host="appserver.example.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/3a4fe39bf9854d99a6ab061ea44ef4e2/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="384a59ec-ff61-4ec5-9d29-e2c5efbecbb2" name="ssw-dev" url="http://appserver.dev.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
         <fileTransfer host="appserver.dev.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/896886d4943743e6b0b9ac432463bae4/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
