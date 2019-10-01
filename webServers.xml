@@ -57,6 +57,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="ea929b2a-e993-4a22-a78c-eb36ce4ad31c" name="smith-touchnet" url="https://touchnet-smith1.pantheonsite.io/">
+        <fileTransfer host="appserver.touchnet.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/df874edfbcd84fdca0500552f0e44c9f/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
