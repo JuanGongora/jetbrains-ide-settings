@@ -1,6 +1,22 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="3760be3b-dded-41f1-a14a-86b3b0e7abaa" name="ssw-navigation" url="http://appserver.navigation.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
+        <fileTransfer host="appserver.navigation.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/6c4afd464d714fb8a8716f8fc47dee7a/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="600e5aa5-120e-4c37-9b9c-030f8a01623b" name="smith-social" url="http://appserver.social.d3e081e3-006c-421d-973e-60275067805e.drush.in">
+        <fileTransfer host="appserver.social.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/2f5795ca8c6e4d08802ccf8e425c89d9/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="c59d2f92-0f44-4527-88b0-0c4879045454" name="sccs-dev" url="http://appserver.dev.ced32a34-4b5d-42e7-885d-9cf1020cf741.drush.in">
         <fileTransfer host="appserver.dev.ced32a34-4b5d-42e7-885d-9cf1020cf741.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/1c76ea3da74843869cb7dd8910e9fa82/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
@@ -19,14 +35,6 @@
       </webServer>
       <webServer id="a198aa8e-006e-4bb4-86ab-e7a7b1e78213" name="ssw-dropdowntab" url="http://appserver.dropdowntab.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
         <fileTransfer host="appserver.dropdowntab.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/2488fbc1ea3b48fa99eb746c70bf8cc3/code" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="2222" />
-        </fileTransfer>
-      </webServer>
-      <webServer id="e708cf00-3487-4808-a8ec-4f8644be94a0" name="smith-example" url="http://appserver.example.d3e081e3-006c-421d-973e-60275067805e.drush.in">
-        <fileTransfer host="appserver.example.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/3a4fe39bf9854d99a6ab061ea44ef4e2/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
