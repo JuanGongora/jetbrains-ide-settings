@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="162524d1-2cf2-4cd4-ba9f-f8faa5851e1c" name="scma-review" url="http://appserver.review.5020c084-530b-4e30-800a-f9346133be0f.drush.in">
+        <fileTransfer host="appserver.review.5020c084-530b-4e30-800a-f9346133be0f.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/e565c26894444126b89af2da08dcce88/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="3760be3b-dded-41f1-a14a-86b3b0e7abaa" name="ssw-navigation" url="http://appserver.navigation.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
         <fileTransfer host="appserver.navigation.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/6c4afd464d714fb8a8716f8fc47dee7a/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
