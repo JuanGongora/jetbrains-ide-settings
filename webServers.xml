@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="4d7c49bf-950a-4ac1-bfb9-b8c44d7f9ea3" name="smith-webform" url="http://appserver.webform.d3e081e3-006c-421d-973e-60275067805e.drush.in">
+        <fileTransfer host="appserver.webform.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/dffbe1d951444ed0b4c6543dac2e33a7/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="162524d1-2cf2-4cd4-ba9f-f8faa5851e1c" name="scma-review" url="http://appserver.review.5020c084-530b-4e30-800a-f9346133be0f.drush.in">
         <fileTransfer host="appserver.review.5020c084-530b-4e30-800a-f9346133be0f.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/e565c26894444126b89af2da08dcce88/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
@@ -75,6 +83,14 @@
       </webServer>
       <webServer id="ea929b2a-e993-4a22-a78c-eb36ce4ad31c" name="smith-touchnet" url="https://touchnet-smith1.pantheonsite.io/">
         <fileTransfer host="appserver.touchnet.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/df874edfbcd84fdca0500552f0e44c9f/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="791e496c-8e1b-4b54-a549-ee3be9954651" name="ssw-register" url="https://register-ssw1.pantheonsite.io/">
+        <fileTransfer host="appserver.register.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/7cef696cb1b84b90ae9790b7d078177f" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
