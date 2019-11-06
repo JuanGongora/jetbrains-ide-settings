@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="553f777c-8869-4753-baf3-f7eb934a22f6" name="smith-simple-saml" url="https://simple-saml-smith1.pantheonsite.io/">
+        <fileTransfer host="appserver.simple-saml.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/0f1cbdbf9a0f4ada8d98309208f620eb/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
