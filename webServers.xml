@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="6b3f5ead-7652-4263-a5fd-a3e6df27760a" name="libraries-dev" url="http://appserver.dev.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in">
+        <fileTransfer host="appserver.dev.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/ebfacacb38a74858aa47535ca5f534e3/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="7e3eb652-20a5-43fd-a658-70da56a47883" name="smith-revert" url="http://appserver.revert.d3e081e3-006c-421d-973e-60275067805e.drush.in">
         <fileTransfer host="appserver.revert.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/2bd768d8d098420a948446730f0ddfae/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
