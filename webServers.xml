@@ -49,6 +49,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="08621ade-5095-4c2d-9509-0b8e31ffaa91" name="ssw-aug" url="http://appserver.aug.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
+        <fileTransfer host="appserver.aug.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/4f75c5bf72634fc187a04b53aff9cc06/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
