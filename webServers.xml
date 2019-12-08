@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="f2c8581b-dade-438c-9262-10273e51d829" name="xbox">
+        <fileTransfer host="" port="22">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="6b3f5ead-7652-4263-a5fd-a3e6df27760a" name="libraries-dev" url="http://appserver.dev.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in">
         <fileTransfer host="appserver.dev.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/ebfacacb38a74858aa47535ca5f534e3/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
