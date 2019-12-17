@@ -81,6 +81,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="ada37495-cdc5-49f1-aa57-ace1720991b3" name="garden-irisbg" url="http://appserver.irisbg.bca9db0f-f6ae-4d41-a2af-c661af500ac6.drush.in">
+        <fileTransfer host="appserver.irisbg.bca9db0f-f6ae-4d41-a2af-c661af500ac6.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/f2149a794f4b458285e887c8db6c77aa/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
