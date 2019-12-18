@@ -34,9 +34,11 @@
       <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="mariadb" name="">
-      <artifact name="MariaDB Connector J" use="true" />
-      <option name="auto-sync" value="true" />
+    <driver id="mariadb" name="?" driver-class="null">
+      <artifact name="MariaDB Connector J" />
+      <option name="auto-sync" value="false" />
+      <option name="auto-commit" value="false" />
+      <option name="send-app-info" value="false" />
     </driver>
     <driver id="derby.remote">
       <artifact name="Apache Derby" use="true" />
@@ -62,9 +64,10 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="sqlserver.ms">
-      <artifact name="SQL Server" use="true" />
+      <artifact name="SQL Server" use="true" version="7.4.1" />
       <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
+      <option name="auto-commit" value="true" />
     </driver>
     <driver id="db2.jtopen">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
