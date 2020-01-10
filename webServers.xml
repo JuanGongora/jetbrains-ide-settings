@@ -89,6 +89,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="530a3661-7178-462a-babe-a3eea1f624b5" name="smith-live-integ" url="https://live-integ-smith1.pantheonsite.io/">
+        <fileTransfer host="appserver.live-integ.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/9588633843364e2ea8ce0c06703d3b7a/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
