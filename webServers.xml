@@ -97,6 +97,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="61ea2e00-af9f-4bd2-a9a5-0ad99254841f" name="ssw-live" url="http://appserver.live.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
+        <fileTransfer host="appserver.live.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/e7efad46f47b425e855cdb2ccd8c784e/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
