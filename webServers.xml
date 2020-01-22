@@ -105,6 +105,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="7ef63893-ca27-47a0-842e-15594dc4e1d9" name="smith-dev" url="http://appserver.dev.d3e081e3-006c-421d-973e-60275067805e.drush.in">
+        <fileTransfer host="appserver.dev.d3e081e3-006c-421d-973e-60275067805e.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/d0b15f20f7a341518f60fd24d7a49d19/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
