@@ -121,6 +121,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="092721d9-bad8-4889-9421-336ca3885196" name="libraries-dropdowntab" url="http://appserver.dropdowntab.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in">
+        <fileTransfer host="appserver.dropdowntab.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/26b82a15f6e14e59a186d7530dbeca5e/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
