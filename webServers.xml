@@ -81,14 +81,6 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
-      <webServer id="34078d0b-a8b7-4765-b64d-d35dc2bf3d49" name="libraries-apr" url="http://appserver.apr.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in">
-        <fileTransfer host="appserver.apr.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/63046d67cf3e49fb9f2bb142c288b5ea/code" accessType="SFTP" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="2222" />
-        </fileTransfer>
-      </webServer>
       <webServer id="ada37495-cdc5-49f1-aa57-ace1720991b3" name="garden-irisbg" url="http://appserver.irisbg.bca9db0f-f6ae-4d41-a2af-c661af500ac6.drush.in">
         <fileTransfer host="appserver.irisbg.bca9db0f-f6ae-4d41-a2af-c661af500ac6.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/f2149a794f4b458285e887c8db6c77aa/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
