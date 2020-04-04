@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="40370476-8b90-4d94-b6f6-558ae08a4a0b" name="wordpress-test" url="http://appserver.dev.d14952fd-3370-4ecc-ac1b-838172fe9cf1.drush.in">
+        <fileTransfer host="appserver.dev.d14952fd-3370-4ecc-ac1b-838172fe9cf1.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/3b8f1727004d46d79d304a9bc09f2e9f/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="d00cf441-d4ad-4dd6-8923-b0bf66061151" name="scma-review" url="http://appserver.review.5020c084-530b-4e30-800a-f9346133be0f.drush.in">
         <fileTransfer host="appserver.review.5020c084-530b-4e30-800a-f9346133be0f.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/e565c26894444126b89af2da08dcce88/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
