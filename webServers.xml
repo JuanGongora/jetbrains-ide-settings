@@ -66,7 +66,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="1da53acd-1d46-4a4a-93a0-7cddaf446981" name="ssw-register" url="http://appserver.register.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in">
-        <fileTransfer host="appserver.register.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/7cef696cb1b84b90ae9790b7d078177f/code" accessType="SFTP" keyPair="true">
+        <fileTransfer host="appserver.register.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/38e24fd39268412ca002fea85691876c/code" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
