@@ -1,0 +1,16 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="appserver.dev.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in" id="407ea64d-f033-456b-845c-39e64fc7f5bc" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="libraries-dev" nameFormat="CUSTOM" username="dev.236d7a12-f4b0-4870-b33e-d088cb4d6fa1" />
+      <sshConfig host="appserver.revert.d3e081e3-006c-421d-973e-60275067805e.drush.in" id="ab26a7cb-909c-4b46-b89b-5b23fd034ea3" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="smith-revert" nameFormat="CUSTOM" username="revert.d3e081e3-006c-421d-973e-60275067805e" />
+      <sshConfig host="appserver.register.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" id="abf0ec16-ad72-47a8-87fd-c6f5f60152bb" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="ssw-register" nameFormat="CUSTOM" username="register.5aae5ac0-152f-472b-ad51-eeb3812bff11" />
+      <sshConfig host="appserver.simple-saml.d3e081e3-006c-421d-973e-60275067805e.drush.in" id="cd33dcf9-832f-44b4-9679-87bd0d97e0fa" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="smith-simple-saml" nameFormat="CUSTOM" username="simple-saml.d3e081e3-006c-421d-973e-60275067805e" />
+      <sshConfig host="appserver.touchnet.d3e081e3-006c-421d-973e-60275067805e.drush.in" id="a37b057e-aa75-43e7-8a44-5c68a8ea30a1" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="smith-touchnet" nameFormat="CUSTOM" username="touchnet.d3e081e3-006c-421d-973e-60275067805e" />
+      <sshConfig host="appserver.testing.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" id="1500d0af-64d0-402f-a1f0-fcffa51cf267" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="ssw-testing" nameFormat="CUSTOM" username="testing.5aae5ac0-152f-472b-ad51-eeb3812bff11" />
+      <sshConfig host="appserver.nav-test.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" id="639b4d3a-1591-4f5f-8e57-2283efdefca3" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="ssw-nav-test" nameFormat="CUSTOM" />
+      <sshConfig host="appserver.aug.5aae5ac0-152f-472b-ad51-eeb3812bff11.drush.in" id="c34705d7-bcf0-4cd5-9a35-7d7baf6d74e7" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="ssw-aug" nameFormat="CUSTOM" username="aug.5aae5ac0-152f-472b-ad51-eeb3812bff11" />
+      <sshConfig host="appserver.apr.236d7a12-f4b0-4870-b33e-d088cb4d6fa1.drush.in" id="677c9fda-a8ab-49e2-9f5a-1c1f4f3c111b" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="libraries-apr" nameFormat="CUSTOM" />
+      <sshConfig host="appserver.irisbg.bca9db0f-f6ae-4d41-a2af-c661af500ac6.drush.in" id="0fe6972b-f644-4b0c-94e8-879695305e2b" keyPath="$USER_HOME$/.ssh/id_rsa" port="2222" customName="garden-irisbg" nameFormat="CUSTOM" username="irisbg.bca9db0f-f6ae-4d41-a2af-c661af500ac6" />
+    </configs>
+  </component>
+</application>

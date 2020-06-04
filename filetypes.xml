@@ -2,9 +2,9 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="install" type="PHP" />
+      <mapping pattern="libraries" type="PLAIN_TEXT" />
       <mapping pattern="postinstall" type="PLAIN_TEXT" />
       <mapping pattern="simplesaml" type="PLAIN_TEXT" />
-      <mapping pattern="libraries" type="PLAIN_TEXT" />
       <mapping ext="info" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
