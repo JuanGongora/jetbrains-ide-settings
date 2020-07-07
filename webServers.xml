@@ -161,6 +161,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="4f65779d-be8c-4877-92d3-c9f85dacc35c" name="test2020" url="http://appserver.2020-test.bca9db0f-f6ae-4d41-a2af-c661af500ac6.drush.in">
+        <fileTransfer host="appserver.2020-test.bca9db0f-f6ae-4d41-a2af-c661af500ac6.drush.in" port="2222" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/srv/bindings/e0a634990a76456b9be2fa045ae85be8/code" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
