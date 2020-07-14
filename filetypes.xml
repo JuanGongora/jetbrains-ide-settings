@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env.api" type="PLAIN_TEXT" />
+      <mapping pattern=".env.base_api" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
